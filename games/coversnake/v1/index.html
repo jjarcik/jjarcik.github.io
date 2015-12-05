@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cover Snake</title>
+    <meta charset="UTF-8">        
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/main.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <div id="game">
+
+        <div id="header">                
+            <div id="lives">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <span id="score">0%</span>
+            <img src="img/layout/menudotswhite2.png" id="menub" alt=""/>
+        </div>
+
+        <div id = "surface">
+            <canvas id="maincanvas"></canvas>            
+            <div id="border"></div>
+            <div id="kill"></div>
+            <div id="bonus"></div>
+            <div id="atack">
+                <div class="ok trans"></div>
+            </div>
+            <div id="mainimg" ></div>
+            <div id="background">
+                <div class"in"></div>
+            </div>
+        </div>
+
+        <div id="menudesk">                
+            
+            <div id="menudeskmain">
+                <table>    
+                   <tr>
+                    <td colspan='2' id='keyboard'>
+                        <img src='img/layout/arrowKeys.png' alt="play with arrow on keyboard"/>
+                    </td>                             
+                </tr>
+                
+                <tr>
+                    <td class="fc"><img src="img/icons/skull_w.png" alt=""/></td>
+                    <td>this kill you!</td>
+                </tr>
+                <tr>
+                    <td class="fc"><img src="img/icons/speedup_w.png" alt=""/></td>
+                    <td>speed up the enemy!</td>
+                </tr>
+                <tr>
+                    <td class="fc"><div class="you"></div></td>
+                    <td>you</td>
+                </tr>
+                <tr>
+                    <td class="fc"><div class="enemy"></div></td>
+                    <td>your enemy</td>
+                </tr>
+                
+                
+            </table>
+        </div>
+    </div>
+
+    <div id="gameover">
+        <img src="img/icons/skull_w.png" alt=""/>
+        <br />
+        <span>
+            GAME OVER
+        </span>
+    </div>
+    
+    <div id="newgame">
+        
+    </div>
+</div>
+
+<script type="text/javascript" src="js/libs/jquery/jquery.js"></script>
+<script type="text/javascript" src="js/libs/plugins/jcanvas.min.js"></script>
+<script type="text/javascript" src="js/libs/plugins/plugins.js"></script>
+
+<script type="text/javascript" src="js/libs/class/CanvasObject.js"></script>
+<script type="text/javascript" src="js/libs/class/Cursor.js"></script>
+<script type="text/javascript" src="js/libs/class/Fly.js"></script>
+<script type="text/javascript" src="js/libs/class/Area.js"></script>
+<script type="text/javascript" src="js/libs/class/Background.js"></script>
+<script type="text/javascript" src="js/libs/class/Canvas.js"></script>
+<script type="text/javascript" src="js/libs/class/Bonus.js"></script>        
+<script type="text/javascript" src="js/libs/class/Game.js"></script>
+<script type="text/javascript" src="js/main.js"></script>        
+
+</body>
+</html>

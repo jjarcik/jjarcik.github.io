@@ -1,0 +1,13 @@
+CoverSnake
+
+start: (5.10.2014)
+popis:
+Jedná se o hru pro jednoho hráče. Základ hry tvoří plocha o velikosti 
+prohlížeče, okna. Hráč vytváří hada, který se po ploše pohybuje pomocí kláves,
+každý pohyb za sebou zanechává stopu a tím se had zvětšuje. Hráč tak kreslí
+čáry přes hrací plochu. Jakmile hráč spojí okraje hrací plochy, uzavírá tak 
+oblast, kterou vyplní část obrázku, jenž je ze začátku hry zcela skryt. Kromě
+okrajů, může hráč spojovat i již odkryté plochy. Úkolem hráče je odkrýt co
+největší plochu skrytého obrázku. V hrací ploše se také neachází nepřítel v 
+podobě létajících mušek, které nesmí narazit do hráče. Pokud se tak stane, hra
+končí (nebo je odebrán jeden život hráče).
