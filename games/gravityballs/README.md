@@ -4,6 +4,8 @@ The Gravity Balls is a primitive game that uses real world physical elements suc
 
 <img src='screenshot.png' alt='screenshot' width="600" />
 
+### Demo: <a href='http://jjarcik.github.io/games/gravityballs/'>http://jjarcik.github.io/games/gravityballs/</a>
+
 # Technologies
  - JavaScript (jQuery, Box2d-jquery)
  - HTML5
