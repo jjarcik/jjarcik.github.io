@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+<head>        
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">          
+    <meta content="IE=edge;chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="author" content="Jan Jarčík"/>
+    <link href="./css/css.css" type ="text/css" media ="all" rel="stylesheet" />        
+    <title></title>    
+</head>
+
+<body>
+
+    <div id ="controlepanel">
+        <span class='row'>Rotation: </span>
+        <span class='row'>axe x: <input type ="checkbox" value="1" class='r'/></span>
+        <span class='row'>axe y: <input type ="checkbox" value="1" checked="checked" class='r'/></span>
+        <span class='row'>axe z: <input type ="checkbox" value="1"  class='r'/></span>
+        <span class='row'>bitmap: <input type ="checkbox" value="1"  class='r bitmap'/></span>
+        <span class='row'>speed: 
+            <span class='r'>
+                <input type="text" value="60" />
+                <input type ="button" value="set"/>
+            </span>
+        </span>
+
+        <span class='row'>file: 
+
+            <form action ='index.php'>
+                <select name='model' onchange='reload(this)'>
+                    <option value=''>select file</option>
+                    <option value='small.obj'>small.obj</option>
+                    <option value='big.obj'>big.obj</option>
+                    <option value='big2.obj'>big2.obj</option>
+                    <option value='monkey.obj'>monkey.obj</option>
+                    <option value='cone.obj'>cone.obj</option>
+                    <option value='cone2.obj'>cone.obj</option>
+                    <option value='cube1.obj'>cube1.obj</option>
+                    <option value='ring.obj'>ring.obj</option>
+                </select>
+            </form>
+        </span>
+
+        <span class='row'>nodes count: <span id='nodes_count'></span></span>
+
+    </div>
+
+    <canvas id="canvas" width="400" height="400"></canvas>
+
+
+    <div id ="main">
+
+        <!-- zoom scrooling -->
+        <div id="scrollwrap">
+            <div id="scrollwrapinner"></div>
+        </div>
+
+    </div>
+
+    <div class='desc'>
+        <h1>CANVAS</h1>
+        <h1>HTML + CSS</h1>
+    </div>
+
+    <script type="text/javascript" src="./js/jquery/jquery-1.8.2.min.js"></script> 
+    <script type="text/javascript" src="./js/matrix.js"></script>
+    <script type="text/javascript" src="./js/projection.js"></script>
+    <script type="text/javascript" src="./js/js.js"></script>
+
+
+</body>
+</html>
