@@ -1,0 +1,73 @@
+html, body{
+    padding: 0;
+    margin: 0;    
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+     background: #000;
+
+}
+
+.wall{
+    position: absolute;
+    top:50%;
+    left: 0;
+    right:0;
+    bottom: 0;
+    margin: auto;
+     width: 300px;
+    height: 300px;
+    transform-origin: 50% 0%;
+}
+
+.wall video{        
+    width: 300px;
+    height: 300px;
+    -webkit-clip-path: polygon(50% 13.39746%, 100% 100%, 0% 100%);
+    transform: translate(0, -13.39746%);
+}
+
+.wall.flip video{  
+    transform: rotateY(180deg) translate(0, -13.39746%);
+}
+
+.wall.w1{
+    transform: rotate(-60deg);
+}
+
+.wall.w2{
+    transform: rotate(-120deg);
+}
+
+.wall.w3{
+    transform: rotate(-180deg);
+}
+
+.wall.w4{
+    transform: rotate(-2400deg);
+}
+
+.wall.w5{
+    transform: rotate(-300deg);
+}
+
+#main{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left:0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    margin: auto;      
+}
+
+#spinner{
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width:75px;
+}

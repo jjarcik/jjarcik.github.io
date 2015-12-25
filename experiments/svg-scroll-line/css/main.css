@@ -1,0 +1,32 @@
+body{
+    height: 100%;
+}
+
+svg{
+    width:100%;    
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+
+
+#svgparent{        
+    height: 100%;
+    width:1000px;
+    position: relative;
+    margin: auto;
+}
+
+#path1{    
+    stroke-dashoffset: 4000;
+    stroke-dasharray: 4000;
+
+    /* effect of hand made curve */
+    transform: scale(1,6);
+}
+
+
+#main{
+    /* for long scrolling */
+    height: 10000px;
+    width:100%;
+}
