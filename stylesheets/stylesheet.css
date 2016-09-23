@@ -20,6 +20,10 @@ a {
   margin-right: 20px;
 }
 
+.first-p{
+  margin-top: 0;
+}
+
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
