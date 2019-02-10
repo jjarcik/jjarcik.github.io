@@ -1,0 +1,85 @@
+body,html{
+    overflow: hidden;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url(../img/bgr.jpg) no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#game{
+    width:100%;
+    height: 100%;
+    position: relative;
+}
+
+#clouds{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+}
+
+#clouds>div{
+    background: url(../img/cloud.png);
+    background-size: contain;
+    width:100px;
+    height: 100px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    opacity:0;
+    background-repeat: no-repeat;
+}
+
+#mickeyscale{
+
+    position: absolute;
+    width:100%;
+    height: 100%;
+    
+    -webkit-transform: scale(0.3);
+    transform: scale(.3);
+    bottom: -125px;
+    
+    z-index: 2;
+}
+
+#mickey{
+    width:700px;
+    height: 570px;
+    background: url(../img/combo.png) no-repeat;
+    -webkit-animation: upanddown 1.5s infinite; /* Safari 4+ */  
+    animation:         upanddown 1.5s infinite; /* IE 10+, Fx 29+ */
+    position: absolute;
+    left:50%;
+    bottom: 50px;
+    margin-left: -350px;
+}
+
+#mickey.s1{
+    background-position: -700px 0;
+}
+
+
+#mickey.s2{
+    background-position: -1400px 0;
+}
+
+@-webkit-keyframes upanddown {
+    0%   { margin-bottom: 0; }
+    50% { margin-bottom: -20px; }
+    100% { margin-bottom: 0px; }
+}
+@keyframes NAME-YOUR-ANIMATION {
+    0%   { margin-bottom: 0; }
+    50% { margin-bottom: -20px; }
+    100% { margin-bottom: 0px; }
+}

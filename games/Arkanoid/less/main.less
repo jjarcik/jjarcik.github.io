@@ -1,0 +1,143 @@
+@ballstartsize:20px;
+@ballstartx: 50%;
+@ballstarty:50px;
+@racketcolor:#419641;
+
+body{
+    position: fixed;
+    width:100%;
+    height: 100%;   
+    background: #000;
+    margin: 0;
+    padding: 0;
+    color:#fff;
+}
+
+.rounded-corners (@radius: 10px) {
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    -ms-border-radius: @radius;
+    -o-border-radius: @radius;
+    border-radius: @radius;
+}
+
+.border-images(@path, @size){
+    -webkit-border-image:@path @size round; 
+    -o-border-image:@path @size round; 
+    border-image:@path @size round;
+}
+
+#ball{
+    background: #fff;
+    position: absolute;
+    left:@ballstartx;
+    bottom:@ballstarty;
+    width:@ballstartsize;
+    height: @ballstartsize;     
+   .rounded-corners(@ballstartsize);
+    visibility: hidden;
+    border:1px solid #000;
+}
+
+#borders{}
+.border{
+    -webkit-box-shadow: 5px 1px 1px #ccc;
+    box-shadow: 5px 1px 1px #ccc;
+    position: absolute;
+    border:1px solid #333;
+}
+
+.border.brick1{  }
+
+.border.brick2{
+    background: #FF0000;
+}
+
+.border.brick3{
+    background: #FFCC00;
+}
+
+.border.brick4{
+    background: #222222;
+}
+
+.border.brick5{
+    background: #2aabd2;
+}
+
+#racket{
+    position: absolute;
+    left:0;
+    bottom: 10px;
+    width:150px;
+    height: 20px;
+    background: @racketcolor;
+   .rounded-corners(10px);
+    border:1px solid #000;
+}
+
+header{
+    height: 20px;
+}
+
+#table{
+    left:0px;    
+    width:100%;    
+    position: relative;    
+    overflow: hidden;
+}
+
+h1{
+    font-size: 50px;
+    color: #fff;
+    bottom:100px;
+    left:0%;
+    margin-left: 50px;
+    position: absolute;
+}
+
+#bgrcointainer{
+    position:relative;
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;    
+}
+
+#bgrcointainer img{    
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+}
+
+.live{
+    background: @racketcolor;
+    height: 10px;
+    margin-top: 5px;
+    width:30px;
+    .rounded-corners(5px);
+    display: inline-block;
+}
+
+#testline{
+    position: fixed;
+    height: 1px;
+    background: red;
+    width:100%;
+    left:0;
+    top:0;
+}
+
+#testlinex{
+     position: fixed;
+    height: 100%;
+    background: red;
+    width:1px;
+    left:0;
+    top:0;
+}

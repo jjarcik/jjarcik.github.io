@@ -1,0 +1,150 @@
+/* line 6, C:\Users\Jan\Documents\NetBeansProjects\designuj.cz\dev\tests\arkanoid\v1\less\main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Documents\/NetBeansProjects\/designuj\.cz\/dev\/tests\/arkanoid\/v1\/less\/main\.less}line{font-family:\000036}}
+body {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+/* line 30, C:\Users\Jan\Documents\NetBeansProjects\designuj.cz\dev\tests\arkanoid\v1\less\main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Documents\/NetBeansProjects\/designuj\.cz\/dev\/tests\/arkanoid\/v1\/less\/main\.less}line{font-family:\0000330}}
+#ball {
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  bottom: 50px;
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  visibility: hidden;
+  border: 1px solid #000;
+}
+/* line 43, C:\Users\Jan\Documents\NetBeansProjects\designuj.cz\dev\tests\arkanoid\v1\less\main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Documents\/NetBeansProjects\/designuj\.cz\/dev\/tests\/arkanoid\/v1\/less\/main\.less}line{font-family:\0000343}}
+.border {
+  -webkit-box-shadow: 5px 1px 1px #ccc;
+  box-shadow: 5px 1px 1px #ccc;
+  position: absolute;
+  border: 1px solid #333;
+}
+/* line 52, C:\Users\Jan\Documents\NetBeansProjects\designuj.cz\dev\tests\arkanoid\v1\less\main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Documents\/NetBeansProjects\/designuj\.cz\/dev\/tests\/arkanoid\/v1\/less\/main\.less}line{font-family:\0000352}}
+.border.brick2 {
+  background: #FF0000;
+}
+/* line 56, C:\Users\Jan\Documents\NetBeansProjects\designuj.cz\dev\tests\arkanoid\v1\less\main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Documents\/NetBeansProjects\/designuj\.cz\/dev\/tests\/arkanoid\/v1\/less\/main\.less}line{font-family:\0000356}}
+.border.brick3 {
+  background: #FFCC00;
+}
+/* line 60, C:\Users\Jan\Documents\NetBeansProjects\designuj.cz\dev\tests\arkanoid\v1\less\main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Documents\/NetBeansProjects\/designuj\.cz\/dev\/tests\/arkanoid\/v1\/less\/main\.less}line{font-family:\0000360}}
+.border.brick4 {
+  background: #222222;
+}
+/* line 64, C:\Users\Jan\Documents\NetBeansProjects\designuj.cz\dev\tests\arkanoid\v1\less\main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Documents\/NetBeansProjects\/designuj\.cz\/dev\/tests\/arkanoid\/v1\/less\/main\.less}line{font-family:\0000364}}
+.border.brick5 {
+  background: #2aabd2;
+}
+/* line 68, C:\Users\Jan\Documents\NetBeansProjects\designuj.cz\dev\tests\arkanoid\v1\less\main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Documents\/NetBeansProjects\/designuj\.cz\/dev\/tests\/arkanoid\/v1\/less\/main\.less}line{font-family:\0000368}}
+#racket {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  width: 150px;
+  height: 20px;
+  background: #419641;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #000;
+}
+/* line 79, C:\Users\Jan\Documents\NetBeansProjects\designuj.cz\dev\tests\arkanoid\v1\less\main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Documents\/NetBeansProjects\/designuj\.cz\/dev\/tests\/arkanoid\/v1\/less\/main\.less}line{font-family:\0000379}}
+header {
+  height: 20px;
+}
+/* line 83, C:\Users\Jan\Documents\NetBeansProjects\designuj.cz\dev\tests\arkanoid\v1\less\main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Documents\/NetBeansProjects\/designuj\.cz\/dev\/tests\/arkanoid\/v1\/less\/main\.less}line{font-family:\0000383}}
+#table {
+  left: 0px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+/* line 90, C:\Users\Jan\Documents\NetBeansProjects\designuj.cz\dev\tests\arkanoid\v1\less\main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Documents\/NetBeansProjects\/designuj\.cz\/dev\/tests\/arkanoid\/v1\/less\/main\.less}line{font-family:\0000390}}
+h1 {
+  font-size: 50px;
+  color: #fff;
+  bottom: 100px;
+  left: 0%;
+  margin-left: 50px;
+  position: absolute;
+}
+/* line 99, C:\Users\Jan\Documents\NetBeansProjects\designuj.cz\dev\tests\arkanoid\v1\less\main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Documents\/NetBeansProjects\/designuj\.cz\/dev\/tests\/arkanoid\/v1\/less\/main\.less}line{font-family:\0000399}}
+#bgrcointainer {
+  position: relative;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+/* line 107, C:\Users\Jan\Documents\NetBeansProjects\designuj.cz\dev\tests\arkanoid\v1\less\main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Documents\/NetBeansProjects\/designuj\.cz\/dev\/tests\/arkanoid\/v1\/less\/main\.less}line{font-family:\00003107}}
+#bgrcointainer img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+/* line 118, C:\Users\Jan\Documents\NetBeansProjects\designuj.cz\dev\tests\arkanoid\v1\less\main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Documents\/NetBeansProjects\/designuj\.cz\/dev\/tests\/arkanoid\/v1\/less\/main\.less}line{font-family:\00003118}}
+.live {
+  background: #419641;
+  height: 10px;
+  margin-top: 5px;
+  width: 30px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+/* line 127, C:\Users\Jan\Documents\NetBeansProjects\designuj.cz\dev\tests\arkanoid\v1\less\main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Documents\/NetBeansProjects\/designuj\.cz\/dev\/tests\/arkanoid\/v1\/less\/main\.less}line{font-family:\00003127}}
+#testline {
+  position: fixed;
+  height: 1px;
+  background: red;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+/* line 136, C:\Users\Jan\Documents\NetBeansProjects\designuj.cz\dev\tests\arkanoid\v1\less\main.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Jan\/Documents\/NetBeansProjects\/designuj\.cz\/dev\/tests\/arkanoid\/v1\/less\/main\.less}line{font-family:\00003136}}
+#testlinex {
+  position: fixed;
+  height: 100%;
+  background: red;
+  width: 1px;
+  left: 0;
+  top: 0;
+}
